@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12602B72C69DF5F00076CB1 /* The_Sound_of_SpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12602B62C69DF5F00076CB1 /* The_Sound_of_SpaceApp.swift */; };
+		E12602B92C69DF5F00076CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12602B82C69DF5F00076CB1 /* ContentView.swift */; };
+		E12602BB2C69DF6000076CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12602BA2C69DF6000076CB1 /* Assets.xcassets */; };
+		E12602BF2C69DF6000076CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12602BE2C69DF6000076CB1 /* Preview Assets.xcassets */; };
+		E12602C92C69DF6100076CB1 /* The_Sound_of_SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12602C82C69DF6100076CB1 /* The_Sound_of_SpaceTests.swift */; };
+		E12602D32C69DF6100076CB1 /* The_Sound_of_SpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12602D22C69DF6100076CB1 /* The_Sound_of_SpaceUITests.swift */; };
+		E12602D52C69DF6100076CB1 /* The_Sound_of_SpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12602D42C69DF6100076CB1 /* The_Sound_of_SpaceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E12602C52C69DF6100076CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12602AB2C69DF5F00076CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12602B22C69DF5F00076CB1;
+			remoteInfo = "The Sound of Space";
+		};
+		E12602CF2C69DF6100076CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12602AB2C69DF5F00076CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12602B22C69DF5F00076CB1;
+			remoteInfo = "The Sound of Space";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E12602B32C69DF5F00076CB1 /* The Sound of Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Sound of Space.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12602B62C69DF5F00076CB1 /* The_Sound_of_SpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Sound_of_SpaceApp.swift; sourceTree = "<group>"; };
+		E12602B82C69DF5F00076CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E12602BA2C69DF6000076CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E12602BC2C69DF6000076CB1 /* The_Sound_of_Space.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Sound_of_Space.entitlements; sourceTree = "<group>"; };
+		E12602BE2C69DF6000076CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E12602C42C69DF6100076CB1 /* The Sound of SpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sound of SpaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12602C82C69DF6100076CB1 /* The_Sound_of_SpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Sound_of_SpaceTests.swift; sourceTree = "<group>"; };
+		E12602CE2C69DF6100076CB1 /* The Sound of SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sound of SpaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12602D22C69DF6100076CB1 /* The_Sound_of_SpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Sound_of_SpaceUITests.swift; sourceTree = "<group>"; };
+		E12602D42C69DF6100076CB1 /* The_Sound_of_SpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Sound_of_SpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12602B02C69DF5F00076CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602C12C69DF6100076CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602CB2C69DF6100076CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12602AA2C69DF5F00076CB1 = {
+			isa = PBXGroup;
+			children = (
+				E12602B52C69DF5F00076CB1 /* The Sound of Space */,
+				E12602C72C69DF6100076CB1 /* The Sound of SpaceTests */,
+				E12602D12C69DF6100076CB1 /* The Sound of SpaceUITests */,
+				E12602B42C69DF5F00076CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12602B42C69DF5F00076CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12602B32C69DF5F00076CB1 /* The Sound of Space.app */,
+				E12602C42C69DF6100076CB1 /* The Sound of SpaceTests.xctest */,
+				E12602CE2C69DF6100076CB1 /* The Sound of SpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12602B52C69DF5F00076CB1 /* The Sound of Space */ = {
+			isa = PBXGroup;
+			children = (
+				E12602B62C69DF5F00076CB1 /* The_Sound_of_SpaceApp.swift */,
+				E12602B82C69DF5F00076CB1 /* ContentView.swift */,
+				E12602BA2C69DF6000076CB1 /* Assets.xcassets */,
+				E12602BC2C69DF6000076CB1 /* The_Sound_of_Space.entitlements */,
+				E12602BD2C69DF6000076CB1 /* Preview Content */,
+			);
+			path = "The Sound of Space";
+			sourceTree = "<group>";
+		};
+		E12602BD2C69DF6000076CB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E12602BE2C69DF6000076CB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E12602C72C69DF6100076CB1 /* The Sound of SpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				E12602C82C69DF6100076CB1 /* The_Sound_of_SpaceTests.swift */,
+			);
+			path = "The Sound of SpaceTests";
+			sourceTree = "<group>";
+		};
+		E12602D12C69DF6100076CB1 /* The Sound of SpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E12602D22C69DF6100076CB1 /* The_Sound_of_SpaceUITests.swift */,
+				E12602D42C69DF6100076CB1 /* The_Sound_of_SpaceUITestsLaunchTests.swift */,
+			);
+			path = "The Sound of SpaceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12602B22C69DF5F00076CB1 /* The Sound of Space */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12602D82C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of Space" */;
+			buildPhases = (
+				E12602AF2C69DF5F00076CB1 /* Sources */,
+				E12602B02C69DF5F00076CB1 /* Frameworks */,
+				E12602B12C69DF5F00076CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Sound of Space";
+			productName = "The Sound of Space";
+			productReference = E12602B32C69DF5F00076CB1 /* The Sound of Space.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E12602C32C69DF6100076CB1 /* The Sound of SpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12602DB2C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of SpaceTests" */;
+			buildPhases = (
+				E12602C02C69DF6100076CB1 /* Sources */,
+				E12602C12C69DF6100076CB1 /* Frameworks */,
+				E12602C22C69DF6100076CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E12602C62C69DF6100076CB1 /* PBXTargetDependency */,
+			);
+			name = "The Sound of SpaceTests";
+			productName = "The Sound of SpaceTests";
+			productReference = E12602C42C69DF6100076CB1 /* The Sound of SpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E12602CD2C69DF6100076CB1 /* The Sound of SpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12602DE2C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of SpaceUITests" */;
+			buildPhases = (
+				E12602CA2C69DF6100076CB1 /* Sources */,
+				E12602CB2C69DF6100076CB1 /* Frameworks */,
+				E12602CC2C69DF6100076CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E12602D02C69DF6100076CB1 /* PBXTargetDependency */,
+			);
+			name = "The Sound of SpaceUITests";
+			productName = "The Sound of SpaceUITests";
+			productReference = E12602CE2C69DF6100076CB1 /* The Sound of SpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12602AB2C69DF5F00076CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E12602B22C69DF5F00076CB1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E12602C32C69DF6100076CB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E12602B22C69DF5F00076CB1;
+					};
+					E12602CD2C69DF6100076CB1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E12602B22C69DF5F00076CB1;
+					};
+				};
+			};
+			buildConfigurationList = E12602AE2C69DF5F00076CB1 /* Build configuration list for PBXProject "The Sound of Space" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E12602AA2C69DF5F00076CB1;
+			productRefGroup = E12602B42C69DF5F00076CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12602B22C69DF5F00076CB1 /* The Sound of Space */,
+				E12602C32C69DF6100076CB1 /* The Sound of SpaceTests */,
+				E12602CD2C69DF6100076CB1 /* The Sound of SpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12602B12C69DF5F00076CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12602BF2C69DF6000076CB1 /* Preview Assets.xcassets in Resources */,
+				E12602BB2C69DF6000076CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602C22C69DF6100076CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602CC2C69DF6100076CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12602AF2C69DF5F00076CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12602B92C69DF5F00076CB1 /* ContentView.swift in Sources */,
+				E12602B72C69DF5F00076CB1 /* The_Sound_of_SpaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602C02C69DF6100076CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12602C92C69DF6100076CB1 /* The_Sound_of_SpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12602CA2C69DF6100076CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12602D52C69DF6100076CB1 /* The_Sound_of_SpaceUITestsLaunchTests.swift in Sources */,
+				E12602D32C69DF6100076CB1 /* The_Sound_of_SpaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E12602C62C69DF6100076CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12602B22C69DF5F00076CB1 /* The Sound of Space */;
+			targetProxy = E12602C52C69DF6100076CB1 /* PBXContainerItemProxy */;
+		};
+		E12602D02C69DF6100076CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E12602B22C69DF5F00076CB1 /* The Sound of Space */;
+			targetProxy = E12602CF2C69DF6100076CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E12602D62C69DF6100076CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E12602D72C69DF6100076CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E12602D92C69DF6100076CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Sound of Space/The_Sound_of_Space.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Sound of Space/Preview Content\"";
+				DEVELOPMENT_TEAM = P423D66RDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-Space";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E12602DA2C69DF6100076CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Sound of Space/The_Sound_of_Space.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Sound of Space/Preview Content\"";
+				DEVELOPMENT_TEAM = P423D66RDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-Space";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E12602DC2C69DF6100076CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P423D66RDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-SpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sound of Space.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Sound of Space";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E12602DD2C69DF6100076CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P423D66RDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-SpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sound of Space.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Sound of Space";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E12602DF2C69DF6100076CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P423D66RDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-SpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "The Sound of Space";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E12602E02C69DF6100076CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P423D66RDM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PRO.The-Sound-of-SpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "The Sound of Space";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12602AE2C69DF5F00076CB1 /* Build configuration list for PBXProject "The Sound of Space" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12602D62C69DF6100076CB1 /* Debug */,
+				E12602D72C69DF6100076CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12602D82C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of Space" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12602D92C69DF6100076CB1 /* Debug */,
+				E12602DA2C69DF6100076CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12602DB2C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of SpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12602DC2C69DF6100076CB1 /* Debug */,
+				E12602DD2C69DF6100076CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12602DE2C69DF6100076CB1 /* Build configuration list for PBXNativeTarget "The Sound of SpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12602DF2C69DF6100076CB1 /* Debug */,
+				E12602E02C69DF6100076CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12602AB2C69DF5F00076CB1 /* Project object */;
+}
